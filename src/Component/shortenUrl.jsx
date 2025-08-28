@@ -4,7 +4,10 @@ export const shortenUrl = (originalUrl) => {
 
   const randomSuffix = Math.random().toString(36).substring(2, 8);
   return `https://clip.ly/${randomSuffix}`;
-};// src/Component/shortenUrl.js
+  
+};
+
+// src/Component/shortenUrl.js
 
 // import { useState, useEffect } from 'react';
 // import { useLocation, useNavigate } from 'react-router-dom';
